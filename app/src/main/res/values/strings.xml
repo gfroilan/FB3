@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FeelsBook3</string>
+    <string name="home_title_textview">FeelsBook</string>
+    <string name="love_button">Love</string>
+    <string name="joy_button">Joy</string>
+    <string name="surprise_button">Surprise</string>
+    <string name="anger_button">Anger</string>
+    <string name="sadness_button">Sadness</string>
+    <string name="fear_button">Fear</string>
+    <string name="home_text">How are you feeling?</string>
+    <string name="delete_button">Delete Emotion</string>
+    <string name="edit_button">Edit Emotion</string>
+    <string name="view_button">View History</string>
+    <string name="stats_button">View Stats</string>
+    <string name="emotion_recorded_text">Emotion recorded: </string>
+    <string name="comment_intsruction">Add comment</string>
+    <string name="hint_user_comment">Add comment (otherwise cancel)</string>
+    <string name="enter">Enter</string>
+    <string name="user_data">nothing</string>
+
+</resources>
