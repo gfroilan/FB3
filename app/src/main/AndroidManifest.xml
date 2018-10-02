@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".EmotionRecorded" />
-        <activity android:name=".DeleteEmotions"></activity>
+        <activity android:name=".ViewHistory"></activity>
     </application>
 
 </manifest>
