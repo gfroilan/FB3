@@ -17,6 +17,7 @@ public class EmotionRecorded extends AppCompatActivity {
 
     public static ArrayList<String> userData = new ArrayList<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,13 +32,7 @@ public class EmotionRecorded extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.text_emotion_recorded);        //get of text_emotion_recorded from activity_emotion_recorded.xml
         textView.setText(message);                                                      //output emotion_inout to textView
         userData.add(emotion_input);
-        //timeAdd();
     }
-
-    /*public void timeAdd(){
-        String timeStamp = new SimpleDateFormat("yyyy-MM-dd.HH:mm").format(new Date());
-        userData.add(timeStamp);
-    }*/
 
     public static Intent makeIntent(Context context) {
         String timeStamp = new SimpleDateFormat("yyyy-MM-dd.HH:mm").format(new Date());

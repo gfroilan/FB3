@@ -10,23 +10,16 @@ import android.widget.Button;
 public class FeelsBookHome extends AppCompatActivity {
 
     public static String EMOTION_INPUT;
-    public static String TIME_STAMP;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feels_book_home);
 
-        //sendLove();
-        //sendFear();
-        //sendJoy();
-        //sendAnger();
-        //sendSadness();
-        //sendSurprise();
     }
 
     public void sendLove(View view) {
-        Button btn = (Button) findViewById(R.id.button_love);
+        Button btn = findViewById(R.id.button_love);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,7 +32,7 @@ public class FeelsBookHome extends AppCompatActivity {
     }
 
     public void sendAnger(View view) {
-        Button btn = (Button) findViewById(R.id.button_anger);
+        Button btn = findViewById(R.id.button_anger);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,7 +45,7 @@ public class FeelsBookHome extends AppCompatActivity {
     }
 
     public void sendJoy(View view) {
-        Button btn = (Button) findViewById(R.id.button_joy);
+        Button btn = findViewById(R.id.button_joy);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,7 +58,7 @@ public class FeelsBookHome extends AppCompatActivity {
     }
 
     public void sendFear(View view) {
-        Button btn = (Button) findViewById(R.id.button_fear);
+        Button btn = findViewById(R.id.button_fear);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +71,7 @@ public class FeelsBookHome extends AppCompatActivity {
     }
 
     public void sendSurprise(View view) {
-        Button btn = (Button) findViewById(R.id.button_surprise);
+        Button btn = findViewById(R.id.button_surprise);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,7 +84,7 @@ public class FeelsBookHome extends AppCompatActivity {
     }
 
     public void sendSadness(View view) {
-        Button btn = (Button) findViewById(R.id.button_sadness);
+        Button btn = findViewById(R.id.button_sadness);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -108,11 +101,11 @@ public class FeelsBookHome extends AppCompatActivity {
     }
 
     public void gotoDelete(View view) {
-        Button btn = (Button) findViewById(R.id.button_delete);
+        Button btn = findViewById(R.id.button_history);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = DeleteEmotions.makeDeleteIntent(FeelsBookHome.this);
+                Intent intent = ViewHistory.makeViewIntent(FeelsBookHome.this);
                 startActivity(intent);
             }
         });
