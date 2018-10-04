@@ -12,11 +12,11 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Locale;
 
 public class EmotionRecorded extends AppCompatActivity {
 
     public static ArrayList<String> userData = new ArrayList<>();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class EmotionRecorded extends AppCompatActivity {
     }
 
     public static Intent makeIntent(Context context) {
-        String timeStamp = new SimpleDateFormat("yyyy-MM-dd.HH:mm").format(new Date());
+        String timeStamp = new SimpleDateFormat("yyyy-MM-dd.HH:mm", Locale.CANADA).format(new Date());
         userData.add(timeStamp);
         return new Intent(context, EmotionRecorded.class);
     }
@@ -45,6 +45,7 @@ public class EmotionRecorded extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                userData.add("No comment");
                 Intent intent = FeelsBookHome.makeHomeIntent(EmotionRecorded.this);
                 startActivity(intent);
             }

@@ -110,4 +110,15 @@ public class FeelsBookHome extends AppCompatActivity {
             }
         });
     }
+
+    public void gotoStats(View view) {
+        Button btn = findViewById(R.id.button_stats);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = ViewStats.makeStatsIntent(FeelsBookHome.this);
+                startActivity(intent);
+            }
+        });
+    }
 }

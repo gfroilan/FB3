@@ -40,6 +40,7 @@
         android:layout_width="81dp"
         android:layout_height="55dp"
         android:layout_marginBottom="16dp"
+        android:onClick="gotoStats"
         android:text="@string/stats_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -75,8 +76,7 @@
         android:text="@string/sadness_button"
         app:layout_constraintBottom_toTopOf="@+id/button_surprise"
         app:layout_constraintEnd_toStartOf="@+id/button_anger"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -86,14 +86,15 @@
         android:layout_height="48dp"
         android:layout_marginBottom="70dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginRight="16dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="106dp"
         android:onClick="sendAnger"
         android:text="@string/anger_button"
         app:layout_constraintBottom_toTopOf="@+id/button_joy"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_sadness"
+        app:layout_constraintStart_toEndOf="@+id/home_text"
         app:layout_constraintTop_toBottomOf="@+id/home_title_textview" />
 
     <Button
@@ -126,9 +127,7 @@
         android:text="@string/joy_button"
         app:layout_constraintBottom_toTopOf="@+id/button_stats"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/home_text"
-        app:layout_constraintTop_toBottomOf="@+id/button_anger" />
+        app:layout_constraintStart_toEndOf="@+id/home_text" />
 
     <Button
         android:id="@+id/button_fear"
