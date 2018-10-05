@@ -1,6 +1,4 @@
 # froilan_FeelsBook App
-
-/*
  * froilan-FeelsBook
  * Course: CMPUT 301 Fa18
  * ccid: froilan
@@ -8,9 +6,7 @@
  * Date: October 5th, 2018
  * Version: 1
  * Copyright: MIT
- *
- *
- */
+ 
  
  Sources:
  Card Menu:
