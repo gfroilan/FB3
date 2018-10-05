@@ -106,4 +106,4 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 }
 
 //Was not able to implement Delete and Edit entry functionalities in this class
-    
+//Was not able to implement persistence in this class    
