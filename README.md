@@ -7,7 +7,7 @@
  * Version: 1
  * Copyright: MIT
  
- 
+ Minimum SDK Version 26 is required for recycler view and card menu!
  Sources:
  Card Menu:
       RecyclerView + CardView - Part 3 - INSERT & REMOVE ITEMS - Android Studio Tutorial by Coding in Flow (Florian)
