@@ -1,23 +1,26 @@
 package com.example.gillien.feelsbook3;
 
+//imports
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 import com.anychart.AnyChart;
 import com.anychart.AnyChartView;
 import com.anychart.chart.common.dataentry.DataEntry;
 import com.anychart.chart.common.dataentry.ValueDataEntry;
 import com.anychart.charts.Pie;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+//Allows user to view statistics on emotion count
 public class ViewStats extends AppCompatActivity {
 
     @Override
+    //Initializes ViewStats activity
+    //Splits emotions into separate categories and counts instances
+    //Stats is outputted as a piechart supplied by AnyChart
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_stats);
@@ -47,6 +50,7 @@ public class ViewStats extends AppCompatActivity {
 
     }
 
+    //Navigates to and from ViewStats activity
     public static Intent makeStatsIntent(Context context) {
         return new Intent(context, ViewStats.class);
     }
