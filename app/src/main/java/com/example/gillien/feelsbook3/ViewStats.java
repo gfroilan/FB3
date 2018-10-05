@@ -11,6 +11,8 @@
  */
 package com.example.gillien.feelsbook3;
 
+//Chart initialization is from the piechart tutorial found in AnyChart Github
+//Refer to READ.md for citation
 //imports
 import android.content.Context;
 import android.content.Intent;
