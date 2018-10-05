@@ -25,6 +25,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 
+//Methods commentCheck and confirmInput were taken from TextInputLayout tutorial on Youtube
+//Refer to READ.md for citation
 //EmotionRecorded activity makes userData ArrayList<String> that contains timestamp, emotion, and comment 
 public class EmotionRecorded extends AppCompatActivity {
 
