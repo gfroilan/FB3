@@ -39,3 +39,5 @@
       Source: Youtube (tutorial)
       Date of Publication: January 24, 2017
       URL: https://www.youtube.com/watch?v=B1oaE0Odqes&t=617s
+      
+ Most of the code from these sources have been altered according to FeelsBook functionalities
