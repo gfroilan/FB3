@@ -66,3 +66,4 @@ public class ViewStats extends AppCompatActivity {
         return new Intent(context, ViewStats.class);
     }
 }
+//Was not able to implement persistence in this class
