@@ -15,7 +15,6 @@ public class FeelsBookHome extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feels_book_home);
-
     }
 
     public void sendLove(View view) {
@@ -121,4 +120,5 @@ public class FeelsBookHome extends AppCompatActivity {
             }
         });
     }
+
 }

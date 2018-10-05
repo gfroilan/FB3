@@ -47,8 +47,8 @@
 
     <Button
         android:id="@+id/button_love"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="227dp"
         android:layout_marginEnd="32dp"
         android:layout_marginLeft="32dp"
@@ -64,47 +64,38 @@
 
     <Button
         android:id="@+id/button_sadness"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginBottom="70dp"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="150dp"
         android:layout_marginEnd="152dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="152dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="188dp"
         android:onClick="sendSadness"
         android:text="@string/sadness_button"
         app:layout_constraintBottom_toTopOf="@+id/button_surprise"
         app:layout_constraintEnd_toStartOf="@+id/button_anger"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_anger"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginBottom="70dp"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="150dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="16dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="106dp"
         android:onClick="sendAnger"
         android:text="@string/anger_button"
         app:layout_constraintBottom_toTopOf="@+id/button_joy"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/home_text"
-        app:layout_constraintTop_toBottomOf="@+id/home_title_textview" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sadness" />
 
     <Button
         android:id="@+id/button_surprise"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="139dp"
         android:layout_marginEnd="152dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="152dp"
         android:layout_marginStart="16dp"
         android:onClick="sendSurprise"
         android:text="@string/surprise_button"
@@ -116,8 +107,8 @@
 
     <Button
         android:id="@+id/button_joy"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="139dp"
         android:layout_marginEnd="16dp"
         android:layout_marginLeft="15dp"
@@ -131,8 +122,8 @@
 
     <Button
         android:id="@+id/button_fear"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="135dp"
         android:layout_marginTop="37dp"
         android:onClick="sendFear"
