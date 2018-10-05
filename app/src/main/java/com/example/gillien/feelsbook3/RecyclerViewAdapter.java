@@ -11,16 +11,17 @@ import android.view.ViewGroup;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.ArrayList;
 
+//Recycler view class for recycler view widget in ViewHistory activity
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
 
+    //class vars
     private static final String TAG = "RecyclerViewAdapter";
-
     private ArrayList<String> mEmotionData;
     private Context mContext;
 
+    //Constructor for RecyclerViewAdapter class
     public RecyclerViewAdapter(ArrayList<String> emotionData, Context mContext) {
         mEmotionData = emotionData;
         this.mContext = mContext;
@@ -28,6 +29,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @NonNull
     @Override
+    //Initializes recycler view
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, final int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.layout_viewhistory, viewGroup, false);
         ViewHolder holder = new ViewHolder(view);
@@ -35,6 +37,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     @Override
+    //Handles events when view holder is clicked on
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
 
         Log.d(TAG, "onBindViewHolder: called.");
@@ -70,10 +73,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     @Override
+    //Gets item count of elements in recycler view
     public int getItemCount() {
         return mEmotionData.size();
     }
 
+    //Representation of each view holder in reyclerview widget
     public class ViewHolder extends RecyclerView.ViewHolder{
 
         TextView emotionData;
@@ -83,7 +88,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             super(v);
 
             emotionData = v.findViewById(R.id.emotion_data);
-            Log.d(TAG, "cardview: called.");
 
         }
     }
