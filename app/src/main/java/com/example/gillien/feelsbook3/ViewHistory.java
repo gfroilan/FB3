@@ -21,6 +21,9 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import java.util.ArrayList;
 
+//Parts of initUserData and initRecyclerView were taken from Youtube refer to READ.md for citations
+//Chopper method was taken from how to spilt arraylist into parts question in StackOverFlow
+//Refer to READ.md for citations
 //Creates ViewHistory activity that allows user to view history of emotions
 public class ViewHistory extends AppCompatActivity {
 
