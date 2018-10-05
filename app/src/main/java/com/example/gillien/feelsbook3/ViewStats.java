@@ -1,3 +1,14 @@
+/*
+ * froilan-FeelsBook
+ * Course: CMPUT 301 Fa18
+ * ccid: froilan
+ * Author: Gillien Froilan
+ * Date: October 5th, 2018
+ * Version: 1
+ * Copyright: MIT
+ *
+ *
+ */
 package com.example.gillien.feelsbook3;
 
 //imports
