@@ -26,7 +26,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 //Some parts of RecyclerView Structure were taken from the RecyclerView and Card Menu tutorials in Youtube
-//Refer to README.me for citations
+//Refer to README.md for citations
 //Recycler view class for recycler view widget in ViewHistory activity
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
 
