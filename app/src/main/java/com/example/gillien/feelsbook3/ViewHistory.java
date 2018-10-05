@@ -87,3 +87,5 @@ public class ViewHistory extends AppCompatActivity {
     }
 }
 
+//Was not able to implement Delete and Edit entry functionalities in this class
+//Was not able to implement persistance in this class
