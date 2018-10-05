@@ -15,6 +15,12 @@
       -Date of Publication: October 22, 2017
       -URL: https://www.youtube.com/watch?v=RgRENEDNuFg
       
+ *Check length of comment:
+      - TextInputLayout (Floating Label EditText) - Android Studio Tutorial by Coding in Flow (Florian)
+      - Source: Youtube (tutorial)
+      - Date of Publication: 24 March, 2018
+      - URL: https://www.youtube.com/watch?v=veOZTvAdzJ8
+      
  *Nested Linear Layout in XML:
       -Nested vertical layout in horizontal layout answer by Hemanth
       -Source: StackOverflow
