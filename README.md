@@ -7,6 +7,7 @@
  * Version: 1
  * Copyright: MIT
  
+ Need to rebuild and clean project when installed couldn't push implement file in build so build is incomplete!!
  Minimum SDK Version 26 is required for recycler view and card menu!
  *Sources:
  *Card Menu:
