@@ -1,5 +1,13 @@
+*.iml
+.gradle
+/local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
 /build/generated
 /build/intermediates
 /build/reports
 /build/tmp
 /build/outputs/logs
+.externalNativeBuild
